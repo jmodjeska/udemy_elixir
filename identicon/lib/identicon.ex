@@ -24,7 +24,6 @@ defmodule Identicon do
     end
 
     :egd.render(image)
-
   end
 
   def build_pixel_map(%Identicon.Image{grid: grid} = image) do
